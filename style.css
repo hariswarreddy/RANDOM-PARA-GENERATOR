@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    background-color: white;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+.container h1{
+    background-color: white;
+    font-family: roboto,arial;
+}
+.paras{
+    background-color: rgb(238, 238, 238);
+    color: rgb(21,21, 21);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#noOfWords{
+    background-color: white;
+    padding:20px;
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid gray;
+    outline: none;
+    font: 100 1.3rem sans-serif;
+}
+button{
+    color: white;
+    border: none;
+    padding: 20px;
+    font: 100 1.3rem sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+button:hover{
+    background-color: blue;
+}
